@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>Your Education Hub</title>
 
-  <style>
+    <style>
 
 body {
     font-family: 'Arial', sans-serif;
@@ -70,6 +70,7 @@ footer {
 
     
   </style>
+
 </head>
 <body>
     <header>
@@ -86,6 +87,7 @@ footer {
                 <li><a href="#courses">Courses</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#posts">Posts</a></li>
             </ul>
         </div>
     </nav>
@@ -120,6 +122,17 @@ footer {
         </div>
     </section>
 
+    <section id="posts">
+        <div class="container">
+            <h2>Community Posts</h2>
+            <form id="postForm">
+                <textarea id="postText" placeholder="Share your thoughts..."></textarea>
+                <button type="button" onclick="submitPost()">Post</button>
+            </form>
+            <div id="postList"></div>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
             <p>&copy; 2024 Your Education Hub</p>
@@ -128,5 +141,19 @@ footer {
 
     <script src="script.js"></script>
 </body>
-          </html>
-      
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
